@@ -1,15 +1,3 @@
-# **************************************************************************** #
-#                                                                              #
-#                                                         :::      ::::::::    #
-#    genmot.py                                          :+:      :+:    :+:    #
-#                                                     +:+ +:+         +:+      #
-#    By: alexisdrago <marvin@42.fr>                 +#+  +:+       +#+         #
-#                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2022/12/16 12:05:05 by alexisdrago       #+#    #+#              #
-#    Updated: 2022/12/16 18:51:27 by alexisdrago      ###   ########.fr        #
-#                                                                              #
-# **************************************************************************** #
-
 # GEMOT permnet de generer automatiquement des punitions, le programe choisit suivant un niveau de gravite
 # Suite au niveau de gravite, tout sera auto, le logiciel choisir entre avetissement, mot et heure de colle
 # ou un mélanfz autre pour punir l'éléve fautif
