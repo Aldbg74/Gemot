@@ -4,10 +4,15 @@
 # le tout fait avec amour par Alexis en haute savoie en lc'an de grace 2022.
 
 import random
-punition = random.randint(1, 4)
+punition = random.randint(1,4)
 
 while True:
-    print("Genmot se lance, les eleves trenblent.")
+    print(
+    "G E M O T"
+    )
+    print("")
+    print("Made  by Alexis")
+    print("")
     print("Pour continuer vous devez choisir un seuil de gravite")
     print("1.Faible Gravite")
     print("2.Moyenne Gravite")
@@ -17,45 +22,66 @@ while True:
 
           # On commence par le soft, petite punition pour petite betises
 
-          if choice = 1 and punition = 1
-            print("Un simple advertissement devrait suffir")
-                break
-          elif choice = 1 and punition = 2
-            print("Un mot dans le carnet ne sera pas de refus")
-                break
-         elif choice = 1 and punition = 3
-            print("Un mot et du travail en plus devrait lui faire comprendre la lecon")
-                break
-          elif choice = 1 and punition = 4
-            print("Un rappel a l'ordre devrait suffir")
-                break
+    if choice == 1 and punition == 1:
+        print("Petite bétise, un advertissement devrait suffir")
+        break
+    elif choice == 1 and punition == 2:
+        print("Petite bétise, un mot devrait suffir")
+        break
+    elif choice == 1 and punition == 3:
+        print("Petite bétise, une heure de colle devrait suffir")
+        break
+    elif choice == 1 and punition == 4:
+        print("Petite bétise, un mélange mot/heure de colle devrait suffir")
+        break
 
-          # Ici on commence doucement a arriver sur du petit con
+          # On continue avec le medium, punition pour betises moyennes
+    
+    elif choice == 2 and punition == 1:
+        print("Bétise moyenne, un mot devrait suffir")
+        break
+    elif choice == 2 and punition == 2:
+        print("Bétise moyenne, une heure de colle devrait suffir")
+        break
+    elif choice == 2 and punition == 3:
+        print("Bétise moyenne, un mélange mot/heure de colle devrait suffir")
+        break
+    elif choice == 2 and punition == 4:
+        print("Une exclusion de cours, et une heure de colle devrait lui faire comprendre")
+        break
 
-          elif choice = 2 and punition = 1
-            print("Un advertissement verbal devrait faire l'affaire")
-                break
-          elif choice = 2 and punition = 2
-            print("Un mot dans le carnet et du travail en plus")
-                break
-          elif choice = 2 and punition = 3
-            print("La colle me semble appropriée")
-                break
-          elif choice = 2 and punition = 4
-            print("Heure de colle + mot dans le carnet")
-                break
+          # On continue avec le hard, punition pour betises graves
+    
+    elif choice == 3 and punition == 1:
+        print("Bétise grave, une heure de colle devrait suffir")
+        break
+    elif choice == 3 and punition == 2:
+        print("Bétise grave, un mélange mot/heure de colle devrait suffir")
+        break
+    elif choice == 3 and punition == 3:
+        print("Une exclusion de cours, et une plusieurs heures de colle devrait lui faire comprendre")
+        break
+    elif choice == 3 and punition == 4:
+        print("un aller retour chez le cpe devrait lui faire comprendre")
+        break
 
-          # Catégorie pour les gangster
+    # Secret option, pour les betises les plus graves
+    
+    elif choice == 5:
+        print("Un Aller retour chez le principal")
+        break
+    elif choice == 666 :
+        print("This student must die")
+        break
+    
+    # Final pour les fautes de frappe
 
-          elif choice = 3 and punition = 1
-            print("Le mot dans le carnet")
-                break
-          elif choice = 3 and punition = 2
-            print("L'exclusion de cours et le mot dans le carnet")
-                break
-          elif choice = 3 and punition = 3
-            print("Une colle, et une exclusion de cours, sur son mot dans le carnet")
-                break
-          elif choice = 3 and punition = 4
-            print ("Bravo l'éléve a gagné un aller chez le cpe")
-                break
+    else:
+        print("Veuillez choisir un nombre entre 1 et 3")
+        continue
+    
+    # Futur option pour les punitions
+    # Recupération de la liste des punitions
+    # attribution d'un nombre a chaque punition
+    # choix du nombre de punition
+    # choix de la punition
