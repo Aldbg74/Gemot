@@ -35,7 +35,8 @@ punition = random.randint(1,4)
 devoirs = random.randint(1,4)
 colle = random.randint(1,4)
 
-
+    #on lance le programme
+    #on fait choisir a l'utilisateur un niveau de gravité
 while True:
     print(
     "G E M O T"
@@ -47,6 +48,7 @@ while True:
     print("1.Faible Gravite")
     print("2.Moyenne Gravite")
     print("3.Haute Gravite")
+    print("111.Plus d'info")
     print("Votre choix ?")
     
     choice = int(input())
@@ -63,16 +65,16 @@ while True:
     elif choice == 1 and punition == 3:
         print("Petite bétise, une heure de colle devrait suffir")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
@@ -87,48 +89,48 @@ while True:
     elif choice == 2 and punition == 2:
         print("Bétise moyenne, heure de colle devrait suffir")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
     elif choice == 2 and punition == 3:
         print("Bétise moyenne, un mélange mot/heure de colle devrait suffir")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
     elif choice == 2 and punition == 4:
         print("Une exclusion de cours, et une heure de colle devrait lui faire comprendre")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
@@ -138,53 +140,63 @@ while True:
     elif choice == 3 and punition == 1:
         print("Bétise grave, une heure de colle devrait suffir")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
     elif choice == 3 and punition == 2:
         print("Bétise grave, un mélange mot/heure de colle devrait suffir")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
     elif choice == 3 and punition == 3:
         print("Une exclusion de cours, et une plusieurs heures de colle devrait lui faire comprendre")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
-            if colle ==1:
+        if colle ==1:
             print("Il devra faire une heure de colle")
             break
-            elif colle == 2:
+        elif colle == 2:
             print("Il devra faire 2 heures de colles")
             break
-            elif colle == 3:
+        elif colle == 3:
             print("Il devra faire 3 heures de colles")
             break
-            elif colle == 4:
+        elif colle == 4:
             print("Il devra faire 4 heures de colles")
             break
             # Fin du truc bordélique
     elif choice == 3 and punition == 4:
         print("un aller retour chez le cpe devrait lui faire comprendre")
+        break
+        
+    #111 Crédit et explication
+    
+    elif choice == 111 :
+        print("Gemot (générateur de mot) a été crée pour les personnes indécises")
+        print("Vous ne savez pas quoi mettre comme punition a un éléve ?")
+        print("GEMOT EST LA POUR VOUS")
+        print("Hope it's help")
+        print("Alexis")
         break
 
             # Secret option, pour les betises les plus graves
@@ -193,7 +205,7 @@ while True:
         print("Un Aller retour chez le principal")
         break
     elif choice == 666 :
-        print("This student must die")
+        print("This student must die") #joke ofc
         break
     
             # Final pour les fautes de frappe
