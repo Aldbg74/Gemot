@@ -12,8 +12,3 @@ Les degrée de gravité pour l'instant sont au nombre de 3 <br>
 
 - <h4> Choix de la punition </h4>
 Une fois le degrée de gravité choisi, l'ordinateur choisira automtiquement une punition au hasard parmis les punition pré-remplis dans le programme.
-
-<h1> Comment Changer/Rajouter des degré de gravité et des punition </h1>
-Voici un tuto pour si vous voulez modifier le programe pour ajouter ou suprimer des punition.
-
-A VENIR
