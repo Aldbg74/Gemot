@@ -63,24 +63,100 @@ while True:
         break
         
     elif choice == 1 and punition == 3:
-        print("Petite bétise, une heure de colle devrait suffir")
+        print("Petite bétise,la colle devrait suffir")
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
     elif choice == 1 and punition == 4:
         print("Petite bétise, un mélange mot/heure de colle devrait suffir")
-        break
+        if colle ==1:
+            print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
+            break
+        elif colle == 2:
+            print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
+            break
+        elif colle == 3:
+            print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
+            break
+        elif colle == 4:
+            print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
+            break
+            # Fin du truc bordélique
 
           # On continue avec le medium, punition pour betises moyennes
     elif choice == 2 and punition == 1:
@@ -91,15 +167,47 @@ while True:
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
     elif choice == 2 and punition == 3:
@@ -107,15 +215,47 @@ while True:
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
     elif choice == 2 and punition == 4:
@@ -123,15 +263,47 @@ while True:
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
 
@@ -142,15 +314,47 @@ while True:
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
     elif choice == 3 and punition == 2:
@@ -158,15 +362,47 @@ while True:
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
     elif choice == 3 and punition == 3:
@@ -174,15 +410,47 @@ while True:
             # sur de rien a partir d'ici a prochain com, mais ici on devrait pouvoir générer des heures de colles aléatoires
         if colle ==1:
             print("Il devra faire une heure de colle")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 2:
             print("Il devra faire 2 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 3:
             print("Il devra faire 3 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
         elif colle == 4:
             print("Il devra faire 4 heures de colles")
+            if devoirs == 1:
+                print("Il devra copier des lignes")
+            elif devoirs == 2:
+                print("Il devra faire un exercice notée")
+            elif devoirs == 3:
+                print("Il devra faire un texte expliquant pourquoi il a mal agit, et les conséquences de ses actes")
+            elif devoirs == 4:
+                print("Il devra faire un DM")
             break
             # Fin du truc bordélique
     elif choice == 3 and punition == 4:
@@ -211,22 +479,6 @@ while True:
             # Final pour les fautes de frappe
 
     else:
-        print("Veuillez choisir un nombre entre 1 et 3")
+        print("Veuillez choisir un nombre valide svp")
         continue
         
-    # Futur option pour les punitions
-    # Recupération de la liste des punitions
-    # attribution d'un nombre a chaque punition
-    # choix du nombre de punition
-    # choix de la punition
-
-
-    #Sa pourrait ressembler a cela:
-    
-    #Heure de colle
-        #Heure de colle généré aléatoirement
-            #Devoir 1
-            #Devoir 2
-        #Heure de colle genéré aléatoirement
-            #Devoir 1
-            #Devoir 2
