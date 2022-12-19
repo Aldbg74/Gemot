@@ -1,5 +1,5 @@
 <h1> Gemot ? </h1>
-Gemot est l'abrégé de générateur de mot c'est un programe que j'ai créé pour pouvoir générer des punitions;
+Gemot est l'abrégé de générateur de mot c'est un programe que j'ai créé pour pouvoir générer des punitions.
 
 <h1> Principe de fonctionnement </h1>
 
