@@ -17,7 +17,7 @@
 #     \:::\/:::/    /          \:::\   \/____/               /:::/    /           \::::::/    /       \/____/             
 #      \::::::/    /            \:::\    \                  /:::/    /             \::::/    /                            
 #       \::::/    /              \:::\____\                /:::/    /               \::/____/                             
-#        \::/____/                \::/    /                \::/    /                 ~~                                   
+#        \::/____/                \::/    /                \::/    /                                                   
 #                                  \/____/                  \/____/                                                       
                                                                                                                       
                                                                                                                       
@@ -45,10 +45,13 @@ while True:
     print("Made  by Alexis")
     print("")
     print("Pour continuer vous devez choisir un seuil de gravite")
+    print("")
     print("1.Faible Gravite")
     print("2.Moyenne Gravite")
     print("3.Haute Gravite")
     print("111.Plus d'info")
+    print("")
+    print("")
     print("Votre choix ?")
     
     choice = int(input())
@@ -467,7 +470,7 @@ while True:
         print("Alexis")
         break
 
-            # Secret option, pour les betises les plus graves
+    # Secret option, pour les betises les plus graves
     
     elif choice == 5:
         print("Un Aller retour chez le principal")
@@ -475,8 +478,15 @@ while True:
     elif choice == 666 :
         print("This student must die") #joke ofc
         break
-    
-            # Final pour les fautes de frappe
+
+    elif choice ==21 :
+        print("On le laisse tranquille ce coup la")
+        break
+    elif choice == 0:
+        print("Agent spécial 0 ? Je ne croit pas")
+        break
+
+    # Final pour les fautes de frappe
 
     else:
         print("Veuillez choisir un nombre valide svp")
