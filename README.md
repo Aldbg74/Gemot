@@ -11,4 +11,4 @@ Les degrée de gravité pour l'instant sont au nombre de 3 <br>
 3. Grand <br>
 
 - <h4> Choix de la punition </h4>
-Une fois le degrée de gravité choisi, l'ordinateur choisira automtiquement une punition au hasard parmis les punition pré-remplis dans le programme.
+Une fois le degrée de gravité choisi, l'ordinateur choisira automtiquement une punition parmis les punition pré-remplis dans le programme, et un nombre d'heure de colle aléatoirement.
